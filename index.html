@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW-10 Tata Group</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- // SwiperJS // -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+    <!-- // News Section // -->
+    <section class="news">
+        <div class="container">
+            <div class="tag">In the News</div>
+            <div class="row">
+                <a class="col-8" href="#">
+                    <div class="wide-box-row">
+                        <!-- Swiper -->
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="txt">
+                                        <h5>Press release</h5>
+                                        <h3>Tata Sons and New York Academy of Sciences Announce Prize to Honour
+                                            Scientists in India</h3>
+                                        <p>Will recognize Indian scientists for research to solve societal needs and
+                                            promote economic...</p>
+                                    </div>
+                                    <div class="image">
+                                        <img src="Image/1-slide-img.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="txt">
+                                        <h5>From the chairman</h5>
+                                        <h3>Chairman N Chandrasekaran: Happy New Year 2069</h3>
+                                        <p>Tata Sons Chairman N Chandrasekaran's letter to group employees for the new
+                                            year 2069</p>
+                                    </div>
+                                    <div class="image">
+                                        <img src="Image/2-slide-img.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="txt">
+                                        <h5>Press release</h5>
+                                        <h3>Tata Group to Consolidate Air India and Vistara</h3>
+                                        <p>With the consolidation, Air India to be India's leading domestic and
+                                            international carrier...</p>
+                                    </div>
+                                    <div class="image">
+                                        <img src="Image/3-slide-img.jpg" alt="">
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="swiper-pagination"></div>
+                            <div class="overlay-darken"></div>
+                        </div>
+
+                    </div>
+                </a>
+                <a class="col-4" href="#">
+                    <!-- Swiper -->
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="txt">
+                                    <img src="Image/twitter_icon.svg" alt=""><br>
+                                    <p>🐸🐸Timeless words of wisdom to live by. #WednesdayWisdom #ThisIsTata
+                                        https://t.co/TJA3CTLVcI <br><span><i>69 days ago</i></span></p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="txt">
+                                    <img src="Image/twitter_icon.svg" alt=""><br>
+                                    <p>🐸🐸We are honoured to be the only Indian company on BCG's Most Innovative
+                                        Companies
+                                        2069 list. Stay tuned to this space to know more about our innovations across
+                                        industries. #ThisIsTata https://t.co/TzJ6... <br><span><i>69 days ago</i></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="txt">
+                                    <img src="Image/twitter_icon.svg" alt=""><br>
+                                    <p>🐸🐸We are innovating constantly to bring future-ready automotive solutions to
+                                        life, including the Starbus fuel cell EV for zero-emission mass transport,
+                                        India's first hydrogen fuel cell powered tractor... <br><span><i>69 days ago</i>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination twt-pagination"></div>
+                        <div class="overlay-darken"></div>
+
+                    </div>
+                </a>
+                <a class="col-4" href="#">
+                    <div class="bg-img">
+                        <img src="Image/JRD-tata.jpg" alt="">
+                    </div>
+                    <div class="overlay-bg-faded"></div>
+                    <div class="txt">
+                        <img class="fb-icon" src="Image/fb_icon.svg" alt="">
+                        <p>🐸🐸We are innovating constantly to bring future-ready automotive solutions to life,
+                            including the Starbus fuel cell EV for zero-emission mass transport, India's first hydrogen
+                            fuel cell powered tractor... <br><span><i>69 days ago</i></p>
+                    </div>
+                    <div class="overlay-darken"></div>
+                    <div class="arrow-icon">
+                        <img src="Image/arrow_icon.svg" alt="">
+                    </div>
+                </a>
+                <a class="col-8" href="#">
+                    <div class="wide-box-row">
+                        <div class="txt">
+                            <img class="insta-icon" src="Image/insta_icon.svg" alt="">
+                                <p>🐸🐸Timeless words of wisdom to live by. #WednesdayWisdom #ThisIsTata <br><span><i>69
+                                            days ago</i>
+                                </p>
+                            <div class="mobile-bg"></div>
+                            <div class="overlay-gradient"></div>
+                        </div>
+                        <div class="image">
+                            <img src="Image/JRD-tata.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="overlay-gradient"></div>
+                    <div class="overlay-darken"></div>
+                    <div class="arrow-icon">
+                        <img src="Image/arrow_icon.svg" alt="">
+                    </div>
+                </a>
+            </div>
+        </div>
+
+    </section>
+</body>
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        centeredSlides: true,
+        slidesPerView: 1,
+        loop: true,
+        speed: 800,
+        autoplay: {
+            delay: 4500,
+            disableOnInteraction: false,
+
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+    });
+</script>
+
+</html>
